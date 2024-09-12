@@ -24,4 +24,16 @@ aside {
         max-width: 25rem;
         margin-left: auto;
     }
+
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    & h3 {
+        color: var(--text-body);
+        align-items: center;
+    }
 }
