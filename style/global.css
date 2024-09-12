@@ -34,3 +34,11 @@ h1 {
 
     margin-bottom: 2.5rem;
 }
+
+label {
+    font-family: "Open Sans", sans-serif;
+    color: var(--text-body);
+
+    display: block;
+    margin-bottom: .25rem;
+}
