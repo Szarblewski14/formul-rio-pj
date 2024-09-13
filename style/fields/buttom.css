@@ -1,0 +1,18 @@
+button {
+    background-color: var(--shape-button);
+
+    height: 2rem;
+    width: 8rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+
+    cursor: pointer;
+    color: white;
+
+   
+}
+button:focus{
+    background-color: blue;
+    border: 1px solid white;
+    transition: 0.2;
+}
