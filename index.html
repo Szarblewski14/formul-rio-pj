@@ -34,20 +34,24 @@
                 <form>
                     <fieldset>
 
-                        <div class="input-wrapper"> 
-                            <label for="Title">Titulo</label>                          
+                        <div class="input-wrapper">
+                            <label for="Title">Titulo</label>
                             <input type="text" id="title" placeholder="Nome do evento">
                         </div>
 
-                        <div class="input-wrapper-2">
-                            <label for="initial">Inicio</label>
-                            <input type="date" id="initial">
 
-                            <label for="end">Fim</label>
+                        <div class="label-2">
+                            <label>inicio</label>
+                            <label>Fim</label>
+                        </div>
+
+                        <div class="input-wrapper-2">
+
+                            <input type="date" id="initial">
                             <input type="date" id="end">
                         </div>
 
-                        
+
                         <div class="inputwrapper">
 
                             <label for="local">local</label>
@@ -57,17 +61,39 @@
                         <div class="textarea-wrapper">
                             <label for="Descrition">Descrição</label>
                             <textarea name="Descrition" id="Descrition"
-                            cols="30" rows="6"
-                            ></textarea>
+                                placeholder="Escreva sobre os detalhes do evento" cols="30" rows="6"></textarea>
                         </div>
                     </fieldset>
-                </form>
+
+
+                    <div id="contact">
+                        <img src="./assets/icones/contact@2x.svg" alt="">
+                        <h3>Dados para contato</h3>
+                    </div>
+
+                    <fieldset>
+                        <div class="input-wrapper field-2">
+                            <label for="Fullname">Nome</label>
+                            <input type="text" id="Fullname" placeholder="Nome completo">
+                        </div>
+
+                        <div class="label-2">
+                            <label>E-mail</label>
+                            <label>Telefone</label>
+                        </div>
+
+                        <div class="input-wrapper-2">
+
+                            <input type="mail" placeholder="exemplo@email.com">
+                            <input type="fone" placeholder="(51) 12345-6789">
+                        </div>
+                    </fieldset>
+                </form>           
             </div>
         </main>
-
         <aside>
             <div class="aside-container">
-             
+
             </div>
         </aside>
     </div>

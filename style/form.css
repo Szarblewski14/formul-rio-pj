@@ -1,4 +1,5 @@
 @import url(fields/index.css);
+@import url(fields/footer.css);
 
 form {
     margin-top: 3rem;
