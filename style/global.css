@@ -47,3 +47,7 @@ label {
     display: inline-block;
     padding-top: 2rem;
 }
+
+* h3 {
+    color: var(--text-body);
+}
