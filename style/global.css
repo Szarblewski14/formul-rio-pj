@@ -42,3 +42,8 @@ label {
     display: block;
     margin-bottom: .25rem;
 }
+
+.field-2 {
+    display: inline-block;
+    padding-top: 2rem;
+}
