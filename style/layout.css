@@ -1,6 +1,6 @@
 #app {
     display: grid;
-    grid-template-columns: 51.25% 48.75%;
+    grid-template-columns: 57% 43%;
 
     height: 100vh;
     overflow: hidden;
@@ -17,14 +17,22 @@ main {
 }
 
 aside {
+    display: flex;
+    
+
     padding: 5rem;
-    background-color: brown;
 
     & .aside-container {
-        max-width: 25rem;
+        max-width: 100%;
         margin-left: auto;
     }
 
+    & img {
+        display: flex;
+        position: absolute;
+        right: 397px;
+        top: 1px;
+    }
 }
 
 .event {
@@ -38,6 +46,3 @@ aside {
     }
 }
 
-.field-2 {
-    margin-top: 1.5rem;
-}
